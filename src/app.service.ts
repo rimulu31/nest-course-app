@@ -22,4 +22,12 @@ export class AppService {
       age: 21,
     };
 }
+  getXander() {
+    return {
+      name: 'Xander',
+      species: 'hedgehog',
+      age: '21',
+      country: 'Australia',
+    };
+  }
 }

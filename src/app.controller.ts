@@ -21,3 +21,8 @@ export class AppController {
   getJson2() {
     return this.appService.getJson2();
 }
+  @Get('/Xander')
+  getXander() {
+    return this.appService.getXander();
+  }
+}
